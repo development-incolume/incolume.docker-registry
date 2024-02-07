@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "incolume-docker-registry"
+version = "0.1.0"
+description = ""
+authors = ["Ricardo Brito do Nascimento <ricardo.brito@presidencia.gov.br>"]
+readme = "README.md"
+packages = [{include = "incolume"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
